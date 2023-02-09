@@ -16,7 +16,7 @@ public class TestBase {
 	public static WebDriver driver;
 	
 	@BeforeMethod
-	public void setUp()
+	public void setUpMethod()
 	{
 		
 		String b="Chrome";
